@@ -17,7 +17,6 @@ bool moveCar(RoadData* nextRoad, RoadData* roadTemp);
  */
 void printNames( )
 {
-    /* TODO : Fill in you and your partner's names (or N/A if you worked individually) */
     printf("This solution was completed by:\n");
     printf("Lauren Grissom\n");
     printf("Christian Walker\n");
@@ -29,7 +28,6 @@ void printNames( )
  * output: N/A
  *
  * Read in the traffic data from the file whose name is stored in char* filename
- * Simulate the rules outlined in the project 2 description
  */
 void trafficSimulator( char* filename )
 {
@@ -38,7 +36,7 @@ void trafficSimulator( char* filename )
 	RoadData* roadTemp;
 	bool gridlocked = false, hasCarMoved = false;  		/*hasCarMoved tracks if any car has moved this time step*/
 	int i, j, timeSinceLastMove = 0, longestCar = 0;	/*longestCar tracks the longest time a car has been in the sim for*/
-	int totalCars = 0;									/*tracks the absolute total cars that entered the sim*/
+	int totalCars = 0;					/*tracks the absolute total cars that entered the sim*/
 	double averageTime = 0;
 	tData->totalSteps = 0;
 	tData->carsRemaining = 0;
@@ -164,8 +162,6 @@ void trafficSimulator( char* filename )
 	else{
 		printf("CYCLE %d - Gridlock detected.\n", tData->totalSteps);
 	}
-	
-	/*freeing stuff*/
 	
 	/*freeing event PQ*/
 	while(!isEmptyPQ(tData->eventQueue)){
