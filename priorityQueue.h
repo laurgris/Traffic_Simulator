@@ -1,3 +1,5 @@
+/* THIS FILE WAS CONTRIBUTED BY INSTRUCTOR, DR. JESSICA SHERETTE. */
+
 #ifndef _priorityQueue_h
 #define _priorityQueue_h
 #include <stdlib.h>
