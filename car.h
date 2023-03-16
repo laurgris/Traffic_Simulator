@@ -4,7 +4,6 @@
 
 typedef struct Car
 {
-    //TODO:  Add information to store about cars
 	int start; /*road to start on*/
 	int end;   /*intersection to end on*/
 	
