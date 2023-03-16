@@ -15,7 +15,6 @@
 
 typedef struct TrafficData
 {
-    //Optional TODO - Fill this struct in with the data needed to simulate traffic.  Suggested data:
     /* graph representing the road network */
 	Graph* g;
 
