@@ -1,3 +1,5 @@
+#THIS FILE WAS CONTRIBUTED BY INSTRUCTOR, DR. JESSICA SHERETTE.
+
 # Makefile comments
 PROGRAMS = driver
 CC = gcc
