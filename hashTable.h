@@ -1,3 +1,5 @@
+/* THIS FILE WAS CONTRIBUTED BY INSTRUCTOR, DR. JESSICA SHERETTE. */
+
 #ifndef _hashTable_h
 #define _hashTable_h
 #include <stdlib.h>
