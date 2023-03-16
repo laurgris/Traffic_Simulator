@@ -1,3 +1,5 @@
+/* THIS FILE WAS CONTRIBUTED BY INSTRUCTOR, DR. JESSICA SHERETTE. */
+
 #ifndef _queue_h
 #define _queue_h
 #include <stdlib.h>
