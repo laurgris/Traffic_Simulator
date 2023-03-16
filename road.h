@@ -9,8 +9,6 @@
 
 typedef struct RoadData
 {
-    /* TODO - Add data associated with road.  Some suggested data: */
-	
 	/*the order of the roads added*/
 	int roadOrder;
 
